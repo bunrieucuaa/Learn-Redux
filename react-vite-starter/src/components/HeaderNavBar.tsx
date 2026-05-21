@@ -28,13 +28,13 @@ function TextLinkExample() {
             <Form.Check
               type="switch"
               id="custom-switch"
-              value={appMode}
+              defaultChecked={appMode === ELightDarkMode.Light ? false : true}
               label={
                 appMode === ELightDarkMode.Light ? "Light Mode" : "Dark Mode"
               }
               onChange={(e) =>
                 dispatch(
-                  changeMode(e.target.value === "light" ? "dark" : "light"),
+                  changeMode(e.target.checked === true ? "dark" : "light"),
                 )
               }
             />
