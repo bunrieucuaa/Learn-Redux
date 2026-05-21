@@ -1,12 +1,8 @@
 {
-  "name": "hoidanit-react-redux",
+  "name": "react-redux",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "author": {
-    "name": "Hỏi Dân IT",
-    "url": "https://hoidanit.com.vn"
-  },
   "scripts": {
     "dev": "vite",
     "start": "vite",

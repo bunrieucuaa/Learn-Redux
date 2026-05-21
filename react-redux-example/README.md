@@ -1,6 +1,4 @@
-## React + Redux (Hỏi Dân IT)
-
-Template này được sử dụng cho series Redux Ultimate của tác giả Hỏi Dân IT (Eric)
+## React + Redux 
 
 Các bước cần làm:
 1. Clone dự án
